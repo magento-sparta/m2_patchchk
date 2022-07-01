@@ -930,11 +930,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.15",
+            "version": "1.1.16",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.15.0.zip",
-                "shasum": "7c85f916385f8c392ba1279da7909470f400eaab"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.16.0.zip",
+                "shasum": "9f970720b4800d2047e278ade27d612a7ea2b5d8"
             },
             "require": {
                 "ext-json": "*",
@@ -964,7 +964,7 @@
             "license": [
                 "proprietary"
             ],
-            "description": "Provides quality patches for Magento 2"
+            "description": "Provides quality patches for AdobeCommerce & Magento OpenSource"
         },
         {
             "name": "monolog/monolog",
@@ -1759,12 +1759,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1994,12 +1994,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2502,12 +2502,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\String\\": ""
-                },
                 "files": [
                     "Resources/functions.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Component\\String\\": ""
+                },
                 "exclude-from-classmap": [
                     "/Tests/"
                 ]
@@ -2633,5 +2633,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "1.1.0"
 }
