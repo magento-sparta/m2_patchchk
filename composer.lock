@@ -543,9 +543,7 @@
             "version": "1.2.2",
             "dist": {
                 "type": "file",
-                "url": "https://raw.githubusercontent.com/isitnikov/m2-convert-patch-for-composer-install/master/convert-for-composer.php",
-                "reference": null,
-                "shasum": null
+                "url": "https://raw.githubusercontent.com/isitnikov/m2-convert-patch-for-composer-install/master/convert-for-composer.php"
             },
             "type": "library"
         },
@@ -784,7 +782,6 @@
             "dist": {
                 "type": "zip",
                 "url": "https://repo.magento.com/archives/magento/magento-cloud-patches/magento-magento-cloud-patches-1.0.18.0.zip",
-                "reference": null,
                 "shasum": "ebd908b4ef5f4a6e5f52ffa9ee399fcdff2208a5"
             },
             "require": {
@@ -830,12 +827,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.18",
+            "version": "1.1.19",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.18.0.zip",
-                "reference": null,
-                "shasum": "b615d73124777e9b9d86f149df0391019d9c422c"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.19.0.zip",
+                "shasum": "69e88dfc904ba6dc370aec702b8579ad23f58930"
             },
             "require": {
                 "ext-json": "*",
@@ -2309,5 +2305,6 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
