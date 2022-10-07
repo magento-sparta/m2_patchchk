@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8ad26f86fd4b61218d29953f9e8ef030",
+    "content-hash": "8a7da539e21c45d7f125761105eaba4f",
     "packages": [
         {
             "name": "components/jquery",
@@ -827,11 +827,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.20",
+            "version": "1.1.21",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.20.0.zip",
-                "shasum": "bd40451093484e2fa758553cda77620cc22f840b"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.21.0.zip",
+                "shasum": "cad6431cfb6402c0e25ba4b24950538da864411d"
             },
             "require": {
                 "ext-json": "*",
@@ -2306,5 +2306,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
