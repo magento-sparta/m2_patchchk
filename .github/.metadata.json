@@ -1,8 +1,8 @@
 {
     "templateVersion": "0.2",
     "product": {
-        "name": "GDPR Helper",
-        "description": "The tool that helps to remove sensetive data per GDPR policy",
+        "name": "Patch checker tool",
+        "description": "The tool provides information on the different Magento versions a patch is applicable to",
     },
     "contacts": {
         "team": {
