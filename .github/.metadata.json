@@ -1,0 +1,25 @@
+{
+    "templateVersion": "0.2",
+    "product": {
+        "name": "GDPR Helper",
+        "description": "The tool that helps to remove sensetive data per GDPR policy",
+    },
+    "contacts": {
+        "team": {
+            "name": "Adobe Commerce Support Developers",
+            "DL": "Grp-Magento-Support-Engineering",
+            "slackChannel": "#support-engineering"
+        }
+    },
+    "ticketTracker": {
+        "functionalJiraQueue": {
+            "projectKey": "ACSD",
+            "component": ""
+        },
+        "securityJiraQueue": {
+            "projectKey": "ACSD",
+            "component": "ACSD"
+        }
+    },
+    "productionCodeBranches": ["master"]
+}
