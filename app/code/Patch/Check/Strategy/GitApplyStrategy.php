@@ -27,6 +27,6 @@ class GitApplyStrategy extends AbstractStrategy
             $options['-R'] = null;
         }
 
-        return "cd {$instancePath} \\ && git apply {$this->renderOptions($options)} {$patchPath}";
+        return "cd {$instancePath} && git apply {$this->renderOptions($options)} {$patchPath}";
     }
 }
