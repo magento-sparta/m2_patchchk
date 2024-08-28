@@ -660,12 +660,12 @@
             "version": "5.2.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/justinrainbow/json-schema.git",
+                "url": "https://github.com/jsonrainbow/json-schema.git",
                 "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
                 "reference": "ad87d5a5ca981228e0e205c2bc7dfb8e24559b60",
                 "shasum": ""
             },
@@ -894,6 +894,7 @@
                     "type": "community_bridge"
                 }
             ],
+            "abandoned": true,
             "time": "2021-12-21T14:34:37+00:00"
         },
         {
@@ -947,11 +948,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.49",
+            "version": "1.1.50",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.49.0.zip",
-                "shasum": "2b5074176d8e15065e093574dd8c840c2ac2b8a2"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.50.0.zip",
+                "shasum": "6f19d2cb8e195c68213bebd2f8e52261eaed1122"
             },
             "require": {
                 "ext-json": "*",
@@ -959,13 +960,13 @@
                 "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "codeception/codeception": "^4.1",
-                "codeception/module-asserts": "^1.2",
-                "codeception/module-db": "^1.0",
-                "codeception/module-phpbrowser": "^1.0",
-                "codeception/module-rest": "^1.2",
+                "codeception/codeception": "^4.1 || ^5.1",
+                "codeception/module-asserts": "^1.2 || ^3.0",
+                "codeception/module-db": "^1.0 || ^3.0",
+                "codeception/module-phpbrowser": "^1.0 || ^3.0",
+                "codeception/module-rest": "^1.2 || ^3.0",
                 "composer/semver": "@stable",
-                "consolidation/robo": "^1.2 || ^2.0",
+                "consolidation/robo": "^1.2 || ^2.0 || ^3.0",
                 "phpmd/phpmd": "@stable",
                 "phpunit/phpunit": "^8.5 || ^9.5",
                 "squizlabs/php_codesniffer": "^3.0"
@@ -2708,5 +2709,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "1.1.0"
 }
