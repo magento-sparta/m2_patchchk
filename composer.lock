@@ -963,11 +963,11 @@
         },
         {
             "name": "magento/quality-patches",
-            "version": "1.1.81",
+            "version": "1.1.82",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.81.0.zip",
-                "shasum": "8bfb81ea610828bae2bc619ef6e2f5be41073ff6"
+                "url": "https://repo.magento.com/archives/magento/quality-patches/magento-quality-patches-1.1.82.0.zip",
+                "shasum": "019bb0b1094006ac30fa06d3f4c0da9cb3559ee2"
             },
             "require": {
                 "ext-json": "*",
@@ -2903,5 +2903,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
